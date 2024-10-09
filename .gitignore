@@ -3,6 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+/images/
+/annotations/
+dataView.py
+eval.py
+image_file_name_to_image_id.json
+image_name_to_id.py
+infer.py
+Mail_Nüsha.pdf
 # C extensions
 *.so
 
