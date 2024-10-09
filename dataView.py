@@ -6,8 +6,6 @@ import random
 with open("annotations/train.json") as f:
     data = json.load(f)
 
-print("hekkı")
-
 category_ids = {item['category_id'] for item in data["annotations"]}
 print(f"Farklı category_id sayısı: {len(category_ids)}")
 # category_colors = {category_id: (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)) for category_id in category_ids}
