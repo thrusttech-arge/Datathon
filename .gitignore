@@ -5,7 +5,6 @@ __pycache__/
 
 /images/
 /annotations/
-dataView.py
 eval.py
 image_file_name_to_image_id.json
 image_name_to_id.py
